@@ -1,0 +1,511 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    
+
+}
+
+
+#barraTopo{
+    height: 122px;
+    width: 100%;
+
+   
+    
+}
+
+
+#cbc{
+    width: 100%;
+    height: 122px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: #F1DDDD;
+  
+    
+   
+}
+
+
+#VestidosDive{
+    width: 600px;
+    margin-left: 15%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+#divLogo{
+    margin-left: 5%;
+    width: 300px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4%;
+   
+}
+
+#imgFemto{
+    width: 300px;
+    cursor: pointer;
+   
+}
+
+#linkSub{
+    text-decoration: none;
+}
+.pesquisa{
+    width: 600px;
+    height: 30px;
+    
+    border-radius: 30px;
+    
+    border: 1px solid #863D3D;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 10px;
+    padding-top: 2.5px;
+}
+
+#busque{
+    width: 502px;
+    height: 30px;
+    color: #863D3D;
+    border-radius: 30px;
+    
+    border: none;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+   
+}
+
+#busque:focus-visible {
+    outline: none;
+}
+
+#Lupa{
+    fill: #863D3D;
+    cursor: pointer;
+}
+
+input{
+    border:none;
+    font-size: 16px;
+    padding-left: 15px;
+}
+input::placeholder {
+    color: #863D3D;
+    font-size: 16px;
+    
+  }
+
+
+#formTopo{
+    width: 600px;
+   
+    margin-top: 0.5%;
+    margin-left: -5%;
+
+}
+
+#divMenu{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 40px;
+    font-size: 20px;
+    height: 50px;
+    
+}
+
+#txtHover1{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+#txtHover2{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+
+#txtHover3{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+
+#txtHover4{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+
+
+#txtHover1:hover{
+    color: #fff7fd;
+}
+
+#txtHover2:hover{
+    color: #fff7fd;
+}
+
+
+#txtHover3:hover{
+    color: #fff7fd;
+}
+
+
+#txtHover4:hover{
+    color: #fff7fd;
+}
+
+#contas{
+    
+    
+    margin-right:3%;
+    display: flex;
+    gap: 33px ;
+    align-items: center;
+}
+
+#menu{
+    fill: #863D3D;
+}
+
+#IconConta{
+    width: 38px;
+    margin-top: 4px;
+}
+
+#entrarConta{
+    color: #863D3D;
+    margin-left: -2px;
+    font-size: 16px;
+}
+
+#divConta{
+    width: 60px;
+    border-right: 1px solid #863D3D;
+    display: block;
+    justify-self: center;
+    cursor: pointer;
+}
+
+#IconAdd{
+    width:45px;
+}
+#addConta{
+    font-size: 16px;
+    color: #863D3D;
+    margin-left: 6px;
+}
+
+#contaSemMenu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#divCriar{
+    cursor: pointer;
+}
+
+
+#subMenu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    color: #737373;
+    top: 100%;
+    left: -90%;
+    margin-top: 0px;
+    height: 200px;
+    
+   
+
+}
+
+#li1{
+    border-top:3px solid #FF66C4;
+}
+
+#li4{
+    padding-bottom: 10px;
+}
+.liTam{
+    width: 200px;
+    height: 30px;
+    background-color: #F1DDDD;
+    padding: 15px;
+    
+}
+
+.liTam:hover {
+    background-color: #f8f9fa;
+}
+
+#subMenu:hover .liTam{
+    opacity: 1;
+    visibility: visible;
+}
+
+.txtPointer2{
+    position: relative;
+}
+
+.txtPointer2:hover #subMenu{
+    opacity: 1;
+    visibility: visible;
+}
+
+#txtLista3{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+
+
+#txtVestidoBronze{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 3%;
+    color: #863D3D;
+}
+
+#sectionBorda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#bordaVestido{
+    width: 79.7%;
+    
+    border: 1px solid #863D3D;
+}
+
+#sectionCentro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#sectionFlex{
+    width: 80%;
+   
+    
+
+    display: flex;
+    justify-content: center;
+    gap: 6.1% ;
+    flex-wrap: wrap;
+}
+
+#divMargem{
+    margin-bottom: 3%;
+}
+
+.tamImg{
+    height: 440px;
+    width: 310px;
+    
+    z-index: 1;
+    cursor: pointer;
+}
+
+.tamImg:hover{
+    cursor: pointer;
+}
+
+#divHover:hover .tamImg{
+    filter: brightness(60%);
+    transform: scale(1.001);
+    transition: 1s;
+    cursor: pointer;
+}
+
+#divHover:hover #txtProduto{
+    opacity: 1;
+    margin-top: 0;
+}
+#divHover{
+    height: 440px;
+    width: 310px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+#txtProduto{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+    margin-top: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    color: white;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 25px;
+
+    background-color: #863D3D;
+    width: 100%;
+}
+.btnAlugue:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.btnVer:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+
+.txtCentro{
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-size: 20px;
+    
+}
+
+
+.txtPreço{
+    color: #863D3D;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+.txtPeqCinza{
+    font-size: 14px;
+    color: #6D6D6D;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+#btnFlex{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 20px;
+}
+.btnAlugue{
+    width: 110px;
+    height: 23px;
+
+    border-radius: 2px;
+    background-color: #863D3D;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+.btnVer{
+    width: 110px;
+    height: 23px;
+
+    border-radius: 2px;
+    background-color: white;
+    text-align: center;
+    padding-top: 4px;
+    border: 1px solid #863D3D;
+    color: #863D3D;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.btnAlugue :hover{
+    transition: 1s;
+    width: 140px;
+    height: 30px;
+}
+
+
+#fundoRosa2{
+    background-color: #F1DDDD;
+    width: 100%;
+    height: 325px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionBaixo{
+    width: 85%;
+    margin-top: 3%;
+    display: flex;
+    gap: 6%;
+}
+
+#divFemto{
+    width: 22%;
+}
+
+.txtCentro2{
+    font-size: 15px;
+    color: black;
+}
+
+#socialIcon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.margemTop{
+    margin-top: 8%;
+    color: #863D3D  ;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#txtPrincipais{
+    color: #863D3D  ;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 3.5%;
+}
+
+.txtP{
+    color: black;
+    font-size: 16px;
+}
+
+#social{
+    fill: #5e2929;
+}
+
+#divFinal{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #863D3D;
+    background-color: #F1DDDD;
+    text-align: center;
+    padding-top: 20px;
+    color: #5e2929;
+}

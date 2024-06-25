@@ -1,0 +1,613 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    
+ 
+      
+
+}
+
+
+
+
+#imgFundo{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url("imgFundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+    
+    
+
+}
+#cbc{
+    width: 100%;
+    height: 10vh;
+    margin-top: 0.5%;
+    
+    display: flex;
+    justify-content: space-between;
+  
+    
+   
+}
+
+
+#VestidosDive{
+    width: 600px;
+    margin-left: 15%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+#divLogo{
+    margin-left: 5%;
+    width: 300px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#imgFemto{
+    width: 300px;
+    cursor: pointer;
+   
+}
+
+
+.pesquisa{
+    width: 600px;
+    height: 30px;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 10px;
+    padding-top: 2.5px;
+}
+
+#busque{
+    width: 502px;
+    height: 30px;
+    color: white;
+    border-radius: 30px;
+    
+    border: none;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+   
+}
+#divMenu{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 40px;
+    font-size: 20px;
+    height: 50px;
+    
+}
+#linkSub{
+    text-decoration: none;
+}
+
+#txtHover1{
+    color: white;
+    text-decoration: none;
+}
+
+#txtHover2{
+    color: white;
+    text-decoration: none;
+}
+
+
+#txtHover3{
+    color: white;
+    text-decoration: none;
+}
+
+
+#txtHover4{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#txtHover1:hover{
+    color: #863D3D;
+}
+
+#txtHover2:hover{
+    color: #863D3D;
+}
+
+
+#txtHover3:hover{
+    color: #863D3D;
+}
+
+
+#txtHover4:hover{
+    color: #863D3D;
+}
+
+#busque:focus-visible {
+    outline: none;
+}
+
+#Lupa{
+    fill: white;
+    cursor: pointer;
+}
+
+input{
+    border:none;
+    font-size: 16px;
+    padding-left: 15px;
+}
+input::placeholder {
+    color: white;
+    font-size: 16px;
+    
+  }
+
+
+#formTopo{
+    width: 600px;
+   
+    margin-top: 0.5%;
+    margin-left: -5%;
+
+}
+
+
+#contas{
+    
+    
+    margin-right:3%;
+    display: flex;
+    gap: 33px ;
+    align-items: center;
+}
+
+#menu{
+    fill: white;
+}
+
+#IconConta{
+    width: 38px;
+}
+
+#entrarConta{
+    color: white;
+    margin-left: -2px;
+    font-size: 16px;
+}
+
+#divConta{
+    width: 60px;
+    border-right: 1px solid white;
+    display: block;
+    justify-self: center;
+    cursor: pointer;
+}
+
+#IconAdd{
+    width:40px;
+}
+
+#addConta{
+    font-size: 16px;
+    color: white;
+    margin-left: 3px;
+}
+
+#contaSemMenu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#divCriar{
+    cursor: pointer;
+}
+
+
+#subMenu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    color: #737373;
+    top: 100%;
+    left: -90%;
+    margin-top: 0px;
+    height: 200px;
+    
+   
+
+}
+
+#li1{
+    border-top:3px solid #FF66C4;
+}
+
+#li4{
+    padding-bottom: 10px;
+}
+.liTam{
+    width: 200px;
+    height: 30px;
+    background-color: #F1DDDD;
+    padding: 15px;
+    
+}
+
+.liTam:hover {
+    background-color: #f8f9fa;
+}
+
+#subMenu:hover .liTam{
+    opacity: 1;
+    visibility: visible;
+}
+
+.txtPointer2{
+    position: relative;
+}
+
+.txtPointer2:hover #subMenu{
+    opacity: 1;
+    visibility: visible;
+}
+
+#txtLista3{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+
+#fundoBranco1{
+
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+    margin-top: 28%;
+    padding-top: 3%;
+}
+
+#divFlex{
+    display: flex;
+    justify-content: center;
+}
+#divTxtVestido{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #863D3D;
+    border-radius: 15px;
+    text-align: center;
+    
+
+}
+
+#txtVestidos{
+    font-size: 100px;
+    color: #8D2323;
+}
+#txtCategoria{
+    color: #863D3D;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+}
+
+#sectionCategoria{
+    width: 100%;
+
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+
+.txtClasse{
+    text-align: center;
+    font-size: 21.5px;
+    font-weight: 600;
+    color: black;
+}
+.txtPreçoClasse{
+    font-size: 24px;
+    font-weight: 900;
+    color: #880000;
+    text-align: center;
+}
+.imgClasse{
+    width: 220px;
+    cursor: pointer;
+}
+#txtDestaqueRosa{
+    color: #863D3D;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+
+#fundoRosa{
+    background-color: #FFF3F3;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#flexVestidosRosa{
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    
+    
+}
+
+#testePreto{
+    border-bottom: 1px solid black;
+    height: 560px;
+    width: 270px;
+}
+
+.imgVestRosa{
+    width: 100%;
+    padding-bottom: 10px;
+    height: 442px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.imgVestRosa:hover{
+    transform: scale(1.01);
+    transition: 0.6s;
+    filter: saturate(70%);
+}
+
+.btnAlugue:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.btnVer:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+
+.txtCentro{
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-size: 20px;
+    
+}
+
+
+.txtPreço{
+    color: #863D3D;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+.txtPeqCinza{
+    font-size: 14px;
+    color: #6D6D6D;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+#fundoAzul{
+    background-color: #EBFCFF;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fundoDiv{
+    background-color: white;
+    border-radius: 30px;
+    width: 320px;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    
+}
+
+#btnFlex{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 20px;
+}
+.btnAlugue{
+    width: 110px;
+    height: 23px;
+
+    border-radius: 15px;
+    background-color: #863D3D;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+.btnVer{
+    width: 110px;
+    height: 23px;
+
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    padding-top: 4px;
+    border: 1px solid #863D3D;
+    color: #863D3D;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.btnAlugue :hover{
+    transition: 1s;
+    width: 140px;
+    height: 30px;
+}
+
+
+#fundoDourado{
+    background-color: #FFF6DF;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#txtDuvida{
+    color: #8D2323;
+    font-size: 50px;
+}
+
+#divTxtDuvida{
+    width: 35%;
+    
+    border-bottom: 2px solid #863D3D;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 3%;
+    
+
+}
+
+
+#txtConvencer{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#txtConvencer::first-line{
+    color: #863D3D;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+
+.sectionFlex{
+    display: flex;
+    
+    
+}
+
+#sectionDuvida{
+    
+    margin-right: 10%;
+}
+
+#fundoRosa2{
+    background-color: #F1DDDD;
+    width: 100%;
+    height: 325px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#sectionBaixo{
+    width: 85%;
+    margin-top: 3%;
+    display: flex;
+    gap: 6%;
+}
+
+#divFemto{
+    width: 22%;
+}
+
+.txtCentro2{
+    font-size: 15px;
+    color: black;
+}
+
+#socialIcon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.margemTop{
+    margin-top: 8%;
+    color: #863D3D  ;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#txtPrincipais{
+    color: #863D3D  ;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 3.5%;
+}
+
+.txtP{
+    color: black;
+    font-size: 16px;
+}
+
+#social{
+    fill: #5e2929;
+}
+
+#divFinal{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #863D3D;
+    background-color: #F1DDDD;
+    text-align: center;
+    padding-top: 20px;
+    color: #5e2929;
+}

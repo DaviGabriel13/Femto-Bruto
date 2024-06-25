@@ -1,0 +1,553 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+    
+
+}
+
+
+#barraTopo{
+    height: 122px;
+    width: 100%;
+
+   
+    
+}
+
+
+#cbc{
+    width: 100%;
+    height: 122px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: #F1DDDD;
+  
+    
+   
+}
+
+
+#VestidosDive{
+    width: 600px;
+    margin-left: 15%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+#divLogo{
+    margin-left: 5%;
+    width: 300px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4%;
+   
+}
+
+#imgFemto{
+    width: 300px;
+    cursor: pointer;
+   
+}
+
+#linkSub{
+    text-decoration: none;
+}
+.pesquisa{
+    width: 600px;
+    height: 30px;
+    
+    border-radius: 30px;
+    
+    border: 1px solid #863D3D;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 10px;
+    padding-top: 2.5px;
+}
+
+#busque{
+    width: 502px;
+    height: 30px;
+    color: #863D3D;
+    border-radius: 30px;
+    
+    border: none;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+   
+}
+
+#busque:focus-visible {
+    outline: none;
+}
+
+#Lupa{
+    fill: #863D3D;
+    cursor: pointer;
+}
+
+input{
+    border:none;
+    font-size: 16px;
+    padding-left: 15px;
+}
+input::placeholder {
+    color: #863D3D;
+    font-size: 16px;
+    
+  }
+
+
+#formTopo{
+    width: 600px;
+   
+    margin-top: 0.5%;
+    margin-left: -5%;
+
+}
+
+#divMenu{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 40px;
+    font-size: 20px;
+    height: 50px;
+    
+}
+
+#txtHover1{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+#txtHover2{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+
+#txtHover3{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+
+#txtHover4{
+    color: #863D3D;
+    text-decoration: none;
+}
+
+
+
+#txtHover1:hover{
+    color: #fff7fd;
+}
+
+#txtHover2:hover{
+    color: #fff7fd;
+}
+
+
+#txtHover3:hover{
+    color: #fff7fd;
+}
+
+
+#txtHover4:hover{
+    color: #fff7fd;
+}
+
+#contas{
+    
+    
+    margin-right:3%;
+    display: flex;
+    gap: 33px ;
+    align-items: center;
+}
+
+#menu{
+    fill: #863D3D;
+}
+
+#IconConta{
+    width: 38px;
+    margin-top: 4px;
+}
+
+#entrarConta{
+    color: #863D3D;
+    margin-left: -2px;
+    font-size: 16px;
+}
+
+#divConta{
+    width: 60px;
+    border-right: 1px solid #863D3D;
+    display: block;
+    justify-self: center;
+    cursor: pointer;
+}
+
+#IconAdd{
+    width:45px;
+}
+#addConta{
+    font-size: 16px;
+    color: #863D3D;
+    margin-left: 6px;
+}
+
+#contaSemMenu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+#divCriar{
+    cursor: pointer;
+}
+
+
+#subMenu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    color: #737373;
+    top: 100%;
+    left: -90%;
+    margin-top: 0px;
+    height: 200px;
+    
+   
+
+}
+
+#li1{
+    border-top:3px solid #FF66C4;
+}
+
+#li4{
+    padding-bottom: 10px;
+}
+.liTam{
+    width: 200px;
+    height: 30px;
+    background-color: #F1DDDD;
+    padding: 15px;
+    
+}
+
+.liTam:hover {
+    background-color: #f8f9fa;
+}
+
+#subMenu:hover .liTam{
+    opacity: 1;
+    visibility: visible;
+}
+
+.txtPointer2{
+    position: relative;
+}
+
+.txtPointer2:hover #subMenu{
+    opacity: 1;
+    visibility: visible;
+}
+
+#txtLista3{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+
+
+#li1{
+    border-top:3px solid #863D3D;
+}
+
+#li4{
+    padding-bottom: 10px;
+}
+.liTam{
+    width: 200px;
+    height: 30px;
+    background-color: #be8e8e;
+    padding: 15px;
+    
+}
+
+.liTam:hover {
+    background-color: #f8f9fa;
+}
+
+#subMenu:hover .liTam{
+    opacity: 1;
+    visibility: visible;
+}
+
+.txtPointer2{
+    position: relative;
+}
+
+.txtPointer2:hover #subMenu{
+    opacity: 1;
+    visibility: visible;
+}
+
+#txtLista3{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+
+#txtContato{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    padding-top: 3%;
+}
+
+#navContato{
+    display: flex;
+}
+
+
+
+.fundoBranco{
+    z-index: 1;
+    height: 900px;
+    background-color: #fff0f0 ;
+    width: 100%;
+    margin-top: 0%;
+
+
+}
+
+
+.centro{
+    display: flex;
+    justify-content: center;
+    gap: 10%    ;
+    width: 100%;
+    height: 700px;
+   
+}
+
+
+.centro2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 82%;
+    justify-content: center;
+    
+    gap: 2% ;
+}
+
+#sectionForm{
+    width: 60%;
+    height: 700px;
+    
+    margin-top: 3%;
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+
+
+}
+
+
+#quadradoForm{
+    width: 635px;
+    height: 360px;
+    background-color: white;
+    grid-row: span 2;
+    padding: 48px;
+    border-radius: 20px;
+    
+}
+
+#txtCriar{
+    font-size: 17px;
+}
+
+
+
+#quadradoMore{
+    width: 445px;
+    height: 286px;
+    background-color: white;
+    margin-top: -150px;
+    padding: 24px;
+}
+
+
+#txtContact{
+    font-size: 1.5rem;
+}
+
+#txtAddress{
+    color: #863D3D;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#formFirst{
+    background-color: white;
+    
+    width: 254px;
+    height: 43px;
+    border: 1px solid #F1DDDD;
+    margin-top: 4%;
+    
+
+
+}
+
+.colorRed{
+    color: #863D3D;
+}
+
+#txtSenha{
+    margin-top: 2%;
+}
+#formEmail{
+    background-color: white;
+   
+    width: 538px;
+    height: 43px;
+    border: 1px solid #F1DDDD;
+    margin-top: 2%;
+    
+}
+
+.displayGridFrom{
+    margin-top: 8%;
+    
+    display: grid;
+    
+}
+
+#spanForm{
+    display: grid;
+    width: 48.5%;
+    
+}
+
+#divForm{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+
+textarea{
+    resize: vertical;
+    background-color: white;
+    
+    border: 1px solid #F1DDDD;
+    margin-top: 2%;
+    padding-left: 3%;
+    height: 182px;
+    color: #495057;
+    font-size: 17px;
+}
+
+.marge{
+    margin-top: 2%;
+}
+
+.divHire{width: 163px;
+    height: 50px;
+    background-color: #863D3D ;
+    color: white;
+    margin-top: 3%;
+    border: 1px solid #F1DDDD;
+    font-size: 14px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    }
+
+    #fundoRosa2{
+        background-color: #F1DDDD;
+        width: 100%;
+        height: 325px;
+       
+        display: flex;
+        justify-content: center;
+    }
+    
+    #sectionBaixo{
+        width: 85%;
+        margin-top: 3%;
+        display: flex;
+        gap: 6%;
+    }
+    
+    #divFemto{
+        width: 22%;
+    }
+    
+    .txtCentro2{
+        font-size: 15px;
+        color: black;
+    }
+    
+    #socialIcon{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        cursor: pointer;
+    }
+    
+    .margemTop{
+        margin-top: 8%;
+        color: #863D3D  ;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    
+    #txtPrincipais{
+        color: #863D3D  ;
+        font-weight: 600;
+        font-size: 25px;
+        margin-top: 3.5%;
+    }
+    
+    .txtP{
+        color: black;
+        font-size: 16px;
+    }
+    
+    #social{
+        fill: #5e2929;
+    }
+    
+    #divFinal{
+        width: 100%;
+        height: 80px;
+        border-top: 1px solid #863D3D;
+        background-color: #F1DDDD;
+        text-align: center;
+        padding-top: 20px;
+        color: #5e2929;
+    }
